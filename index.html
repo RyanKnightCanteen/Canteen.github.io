@@ -1,50 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {
-
-	  background-image: url('BGImage.png');	
- 	 background-repeat: no-repeat;
- 	 background-attachment: fixed;
- 	 background-size: cover;
-	 height: 100%;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen</title>
+    <style>
+        body, html {
             margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: white;
         }
 
         .container {
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 90vh;
+            width: 90vw;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 14px;
+            color: black;
+        }
+
+        .header div {
+            padding: 10px 20px;
+        }
+
+        .slogan {
+            flex-grow: 1;
+            display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            font-size: 24px;
+            color: black;
         }
 
         .logo {
-            width: 300px;
-         }
-  		 .text {
-            margin-top: 20px;
-              font-family: inter, sans-serif;
-            font-size: 24px;
-            color: #fff;
+			width: 90vw;
         }
-
-
-}
-</style>
+    </style>
 </head>
 <body>
-
- <div class="container">
+    <div class="container">
+        <div class="header">
+            <div>Design for everyone.</div>
+            <div>hello@canteenstudio.co.uk</div>
+        </div>
+        <div class="slogan">
+            Under construction...
+        </div>
+        <div class="logo">
         <img src="logo.svg" alt="Logo" class="logo">
-         <div class="text">Under development</div>
+        </div>
     </div>
-  
-
-  
 </body>
 </html>
+
+
+
+
+
+
